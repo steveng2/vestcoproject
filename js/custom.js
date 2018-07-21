@@ -85,3 +85,20 @@ $(function() {
   });
 
 });
+
+/*
+===============================================================
+                        NAViGATION
+===============================================================
+*/
+$(function() {
+  $(window).scroll(function() {
+    if ($(this).scrollTop() < 50) {
+      //hide nav
+      $("nav").removeClass("vestco-top-nav");
+    } else {
+      // show nav
+      $("nav").addClass("vestco-top-nav");
+    }
+  });
+});
