@@ -96,9 +96,23 @@ $(function() {
     if ($(this).scrollTop() < 50) {
       //hide nav
       $("nav").removeClass("vestco-top-nav");
+      $("#back-to-top").fadeOut();
     } else {
       // show nav
       $("nav").addClass("vestco-top-nav");
+      $("#back-to-top").fadeIn();
     }
+  });
+});
+
+// Smooth scrolling
+$(function() {
+  $("a.smooth-scroll").click(function(event) {
+    event.preventDefault();
+    //Get/return id likke #about, #work
+    var section = $(this).attr("href");
+    $('html, body').animate({
+      scrollTop: $(section).offset().top - 64
+    }, 1250, "easeInOutExpo");
   });
 });
