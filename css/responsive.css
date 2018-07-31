@@ -1,44 +1,43 @@
 /********************************************************************
                     Bootstrap 3 Media Queries
 *********************************************************************/
+
 /* Large screen  (Desktop & Laptops) */
 
-@media (min-width: 1200px){
-/* ok */
+@media (min-width: 1200px) {
+  /* ok */
 }
 
 /* Medium  Devices  (Landscape Tablets & Medium Desktops)  */
+
 @media (min-width: 992px) and (max-width: 1199px) {
-/*Mobile menu*/
+  /*Mobile menu*/
   .navbar {
-   background: rgba(0,0,0, .7);
-   padding: 0;
+    background: rgba(0, 0, 0, .7);
+    padding: 0;
   }
   .navbar-nav {
     float: left;
   }
-
   .vestco-nav-wrapper {
     padding: 0;
   }
 }
 
 /* Small Devices Portrait Tablets & Small Desktop */
+
 @media (min-width: 768px) and (max-width: 991px) {
   /*Small Screen*/
   .navbar {
-   background: rgba(0,0,0, .7);
-   padding: 0;
+    background: rgba(0, 0, 0, .7);
+    padding: 0;
   }
   .navbar-nav {
     float: left;
   }
-
   .vestco-nav-wrapper {
     padding: 0;
   }
-
-
   /* About */
   #about-bg-diagonal {
     border-left: 0;
@@ -46,45 +45,43 @@
     width: 100%;
     height: 350px;
   }
- #about-content-box {
-  width: 100%;
-  height: 350px;
- }
- /* Stats */
- .stats-item {
-   padding: 20px 0;
- }
- /*Footer */
- #footer-copyrights {
-   text-align: center;
- }
+  #about-content-box {
+    width: 100%;
+    height: 350px;
+  }
+  /* Stats */
+  .stats-item {
+    padding: 20px 0;
+  }
+  /*Footer */
+  #footer-copyrights {
+    text-align: center;
+  }
 }
 
-
 /* Extra Small Devices (Landscape Phones & Tables) */
+
 @media (max-width: 767px) {
   /*Mobile Screen*/
   .navbar {
-   background: rgba(0,0,0, .7);
-   padding: 0;
+    background: rgba(0, 0, 0, .7);
+    padding: 0;
   }
   .navbar-nav {
     float: left;
   }
-
   .vestco-nav-wrapper {
     padding: 0;
   }
   /* Home */
-#home-heading h3 {
-  font-size: 24px;
-}
-/* Button */
-.btn-genreral {
-  padding: 6 22px 6px 22px;
-  font-size:  14px;
+  #home-heading h3 {
+    font-size: 24px;
   }
-
+  /* Button */
+  .btn-genreral {
+    padding: 6 22px 6px 22px;
+    font-size: 14px;
+  }
   /* About */
   #about-bg-diagonal {
     border-left: 0;
@@ -92,31 +89,30 @@
     width: 100%;
     height: 350px;
   }
- #about-content-box {
-  width: 100%;
-  height: 350px;
- }
- /* Work */
- .img-wrapper img {
-   min-width: 100%;
- }
- /* Testimonial */
-   .img-wrapper {
-     min-width: 100%;
-   }
+  #about-content-box {
+    width: 100%;
+    height: 350px;
+  }
+  /* Work */
+  .img-wrapper img {
+    min-width: 100%;
+  }
+  /* Testimonial */
+  .img-wrapper {
+    min-width: 100%;
+  }
   .testimonial blockquote {
     padding: 6px 50px;
-     }
+  }
   .testimonial blockquote:before {
     left: 10px;
   }
   .testimonial blockquote:after {
     right: 10px;
   }
-  .testimonial blockquote p  {
+  .testimonial blockquote p {
     font-size: 14px;
   }
-
   /* Stats */
   .stats-item {
     padding: 20px 0;
@@ -126,12 +122,38 @@
   }
 }
 
-/* Extra Small Devices (Smaller Devices) */
-@media (max-width: 480px) {
+/* Extra Small Devices (Portrait Smaller Devices) */
 
+@media (max-width: 480px) {
+  /* ok */
 }
 
 /* Extra Small Devices (Smaller Devices ) */
-@media (max-width: 320px) {
 
+@media (max-width: 320px) {
+  .service-item-icon i {
+    width: 58px;
+    height: 58px;
+    padding: 7px;
+  }
+  .services-item-title h3 {
+    font-size: 17px;
+  }
+  /* About */
+  #about-content-box {
+    margin-top: 40px;
+  }
+  /* Testimonials */
+  .testimonial img {
+    max-width: 80px;
+  }
+  .testimonial blockquote {
+    padding: 6px 20px;
+  }
+  .testimonial blockquote:before {
+    left: 9px;
+  }
+  .testimonial blockquote:after {
+    right: 9px;
+  }
 }
